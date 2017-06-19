@@ -1,0 +1,493 @@
+body {
+	background-color:black;  
+	margin: 0px;
+    paddling:0px;
+}
+    
+#main{
+	height:2000px;
+}
+
+#sty{
+	padding-left:16px;
+
+}
+#pclr{
+	clear: both;
+}
+
+<!-- ------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------- -->
+
+
+
+#stressbad{
+    margin: auto;
+    width: 100vh;
+    padding: 15px;
+    border:1px solid white;
+    text-align:justified;
+}
+
+
+
+h1{
+	font-family:ubuntu ;
+	text-align:left;
+	color: 	#2F4F4F;
+}
+	
+h2{
+	font-family:ubuntu ;
+	text-align:center;
+	color:green;
+}
+
+h3{
+	font-family:ubuntu ;
+	text-align:center;
+	color: 	#008080;
+}
+
+.qwertty{
+
+	color:#F0F8FF;
+	font-size:45px;
+}
+
+
+
+#hig{
+	font-family:ubuntu ;
+	text-align:center;
+	color:green;
+}
+
+p{
+	font-family:ubuntu ;
+	text-align:left;
+	font-size: 120%;
+	color: 	#4682B4;
+}
+
+#footer{
+	text-align: center;
+	font-family:ubuntu;
+	color: 	#A52A2A;
+}
+
+.image{
+	float:left;
+	margin-right:30px;
+	margin-bottom:5px;
+	border-radius: 25px;
+}
+
+.cover{
+	padding-top: 204px;
+	padding-bottom: 205px;
+}
+
+a:link {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#center {
+    margin: auto;
+    width: 51.25%;
+    padding: 10px;
+}
+
+#stresspic {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+#listfont{
+	font-size:110%;
+	font-family:ubuntu;
+	color:#008080;
+}
+
+#homepage {
+    margin: auto;
+    width: 51.25%;
+    padding: 10px;
+    text-align:justified;
+    background-color:black;
+}
+
+
+#hp_highlights {
+    margin: 15px;
+    width: 51.25%;
+    padding: 10px;
+    border:1px solid blue;
+    text-align:justified;
+}
+    
+
+
+#hp_firstpost {
+    margin: auto;
+    width: 51.25%;
+    padding: 10px;
+    border:1px solid black;
+    text-align:justified;
+}
+
+#stressbad{
+    margin: auto;
+    width: 51.25%;
+    padding: 15px;
+    border:1px;
+    text-align:justified;
+}
+
+.isstressbad{
+    margin: auto;
+    width: 51.25%;
+    padding: 50px;
+    border:1px;
+    text-align:justified;
+}
+
+#ol{
+    margin: auto;
+    width: 51.25%;
+    padding: 25px;
+    border:1px;
+}
+
+#pol{
+	text-align:justify;
+}
+.managestress{
+    margin:auto;
+    width: 51.25%;
+    padding: 10px;
+    border:1px;
+    text-align:justified;
+    
+}
+
+#SA{
+
+	font-size:18px;
+
+
+}
+
+#tips{
+    margin: auto;
+    width: 240;
+    padding: 15px;
+    border:3px;
+    text-align:left	;
+}
+
+.par{
+	font-family:ubuntu ;
+	text-align:justify;
+	font-size: 120%;
+}
+
+#menu {
+	margin-left:10px;
+	margin-bottom:10px;
+	padding: 0;
+	width: 200px;
+	background-color: black;
+	position:fixed;
+	overflow:auto;
+	font-family:ubuntu;
+	border: 1px solid #008080;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    margin-right:15px;	
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+   
+.header{
+	background: url("../image/llhdr1.jpg");
+	background-attachment: fixed;
+	color:white;
+	background-size: cover;
+	width:100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
+h1.qwerty{
+	font-size:72px;
+	font-family:ubuntu;
+	color: #CD853F;
+}
+
+#pics{
+	float:left;
+	margin-right:10px;
+	margin-bottom:15px;
+	border=1px solid black;
+}
+
+
+<!-- --------------------------------------------------------------NAVIGATION BAR------------------------------------------------------------- -->
+
+.topnav {
+  display:none;
+  background-color: #333;
+  position: relative;
+  top: 0;
+  width: 100%;
+  
+}
+
+
+.topnav a {	
+  width:21%;
+  height:30%;
+  float: center;
+  margin-top:10px;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:ubuntu ;
+  
+}
+
+
+#be_fixed{
+	
+    position:fixed;
+    left:22px;
+    top:0;
+	width:15%;
+	height:50%;
+    z-index:1000;
+
+}
+
+.topnav a:hover {
+  color:red ;
+}
+
+
+.topnav a.active {
+     
+     opacity:0.7;
+}
+
+
+
+.main {
+  padding: 16px;
+  margin-top: 5px;
+  height: 1500px; 
+}
+
+
+#myDIV {
+	display:none;
+	color:white;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    margin-top:20px;
+    border:1px;
+    text-align:center;
+    background-color:black;
+	opacity:0.4
+   
+}
+
+.button {
+	background-image: url("../image/mnu.png");
+	background-size: contain;
+	display: block;
+	left:0;
+	top:0;
+	padding:px;
+	width: 50px;
+	height:50px;	
+	color: white;
+}
+
+                             /* ---------------------------------------------M-E-D-I-A--Q-U-E-R-Y-------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: black;
+    }
+    img{
+		display:none
+    }
+    
+    p{
+		font-size:12px;
+		text-align:left;
+    }
+    
+    #myDIV {
+	display:none;
+	color:white;
+    width: 80%;
+    padding: 3px;
+    text-align: center;
+    margin-top:20px;
+    border:1px;
+    text-align:center;
+    background-color:white;
+	opacity:0.4
+   
+}
+    
+    
+    .header{
+		background: url("../image/cover4_small.jpg");
+	background-attachment: fixed;
+	color:white;
+	background-size: cover;
+	width:100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	
+    
+    
+    
+    }
+	#homepage {
+		
+		background-color:black;
+		width:100%
+	}
+	.managestress{
+		margin: auto;
+		width: 51.25%;
+		padding: 25px;
+		border:1px;
+	}	
+		
+	.managestress p {
+	
+	}
+		
+    #main{
+		height:500px;
+		position:absolute;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+	}
+	
+	#hp_firstpost {
+		margin: auto;
+		width: 51.25%;
+		padding: 10px;
+		border:1px solid black;
+		}
+	#hp_firstpost.p{
+		text-align:left;
+	}
+	
+	.topnav a {
+	
+		  color: black;
+	}
+	
+	
+	.topnav a:hover {
+		color: #1E90FF;
+	}
+		
+	
+	#myDIV {
+	color:white;
+    width: 100px;
+    padding: 1px;
+    text-align: center;
+    margin:auto;
+    border:1px;
+    text-align:center;
+    background-color:white;
+
+   
+}
+
+	
+	
+	
+	
+		
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

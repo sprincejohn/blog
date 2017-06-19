@@ -1,0 +1,220 @@
+body{
+   margin: 0px;
+   paddling:0px;
+   background-color:black;
+}
+
+@media only screen and (max-width: 450px) {
+    
+    img {
+		 max-width: 100%;
+    height: auto;
+    }
+    
+    h2,h2,p{
+		text-align:right;
+		font-size: 16px;
+		font-family:ubuntu;
+    }
+    
+    #footer{
+		color: 	#A52A2A;
+		text-align: center;
+		font-size: 12px;
+		padding: 15px;
+    }
+	}
+
+
+h1{
+	font-family:ubuntu ;
+	text-align:center;
+	color:#F0E68C;
+}
+	
+h2{
+	font-family:ubuntu ;
+	text-align:center;
+	color:#FAF0E6
+}
+
+h3{
+	font-family:ubuntu ;
+	text-align:center;
+	color:#008080;
+}
+
+h4{
+	font-family:ubuntu ;
+	text-align:left;
+	color:green;
+}
+
+p{
+	font-family:ubuntu ;
+	text-align:left;
+	font-size: 120%;
+	color: 	#4682B4;
+}
+
+.header{
+	background: url("../image/cover4.jpg");
+	background-attachment: fixed;
+	color:white;
+	background-size: cover;
+	width:100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
+#homepage{
+    margin:auto;
+    width: 51.25%;
+    padding: 10px;
+    text-align:justified;
+    background-color:black;
+}
+
+
+#stressbad{
+    margin: auto;
+    width: 51.25%;
+    padding: 15px;
+    border:1px;
+    text-align:justified;
+}
+
+#h{
+	color:#4169E1
+}
+
+.image{
+	float:left;
+	margin-right:30px;
+	margin-bottom:5px;
+	border-radius: 25px;
+}
+
+#footer {
+	text-align: center;
+	font-family:ubuntu;
+	color: 	#A52A2A;
+	position:bottom
+}
+
+
+a:link {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6A5ACD;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+#things{
+    margin-top:2px	;
+    width: 240;
+    padding: 15px;
+    border:3px;
+    text-align:left	;
+}
+
+#d1{
+	height:70px;
+}
+
+#d2{
+	height:3px;
+}
+
+#d3{
+	height:800px;
+}
+
+#d4{
+	height:150px;
+	margin-bottom:1px;
+}
+
+#pa{
+	text-align:right;
+}
+
+.MH{
+	font-family:ubuntu ;
+	text-align:center;
+	color:#008080;
+}
+
+
+
+
+                             /* ---------------------------------------------M-E-D-I-A--Q-U-E-R-Y-------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: black;
+    }
+ 
+	#homepage {
+		margin: auto;
+		width: 90%;
+		
+	}
+	
+	.header{
+		background: url("../image/cover4_small.jpg");
+		background-attachment: fixed;
+		color:white;
+		background-size: cover;
+		width:100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+	
+ 
+ 
+ 
+ 
+ 
+ 
+    
+}		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
